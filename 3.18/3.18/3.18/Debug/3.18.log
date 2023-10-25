@@ -1,3 +1,1 @@
-﻿  main.c
-d:\!大學\大一\程式實習\1013\homework231013\3.18\source\main.c(18): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
-  3.18.vcxproj -> D:\!大學\大一\程式實習\1013\Homework231013\3.18\3.18\Debug\3.18.exe
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets(46,5): error MSB8036: 找不到 Windows SDK 版本 10.0.19041.0。安裝所需的 Windows SDK 版本，或變更在專案屬性頁的 SDK 版本，或在方案上按一下滑鼠右鍵，並選取 [重定方案目標]。

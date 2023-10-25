@@ -1,19 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+const int w = 9;
 
 int main()
 {
-	int w;
-	printf("Enter an odd number:");
-	scanf("%d", &w);
-
-	while (w % 2 == 0)
-	{
-		printf("Enter an odd number:");
-		scanf("%d", &w);
-	}
-
 	for (int i = 0; i < w; i++)
 	{
 		if (i < (w - 1) / 2)
@@ -29,11 +20,11 @@ int main()
 		}
 		if (i >= (w - 1) / 2)
 		{
-			for (int j = (w - 1) / 2; j < (w - 1) / 2 - i; j++)
+			for (int j = (w - 1) / 2; j < i; j++)
 			{
 				printf(" ");
 			}
-			for (int j = 0; j < 1 + i * 2; j++)
+			for (int j = 0; j < ((w - i - 1) * 2 + 1); j++)
 			{
 				printf("*");
 			}
